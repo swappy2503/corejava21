@@ -16,9 +16,8 @@ public class PriceComparator implements Comparator<Product> {
         products.forEach(product -> System.out.println(product.getName() + ": " + product.getPrice()));
         System.out.println("After sorting by price:");
         Collections.sort(products, new PriceComparator());
-products.forEach(product -> System.out.println(product.getName() + ": " + product.getPrice()));
-
-products.sort(Comparator.comparing(Product::getName).reversed());
+        products.forEach(product -> System.out.println(product.getName() + ": " + product.getPrice()));
+        products.sort(Comparator.comparing(Product::getName).reversed());
         products.forEach(product -> System.out.println(product.getName() + ": " + product.getPrice()));
     }
 }
