@@ -12,8 +12,6 @@ public class HashMapExample {
         mp1.put("third",null);
         mp1.put(null,null);
 
-    //    System.out.println(mp1.getOrDefault("first1","no value found"));
-
         mp1.replace("third",null,"straw");
         System.out.println(mp1);
     }

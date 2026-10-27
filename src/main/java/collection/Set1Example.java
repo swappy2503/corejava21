@@ -16,11 +16,6 @@ list1.add("asdfgh");
 
         HashSet<String> set1 = new HashSet<String>(list1);
         set1.add(null);
-//        set1.add("qwerty");
-//        set1.add("asdfgh");
-//        set1.add("zxcvbn");
-//        set1.add("asdfgh");
-      //  System.out.println(set1);
 
         Iterator<String> iterator = set1.iterator();
         while(iterator.hasNext()) {
